@@ -116,6 +116,7 @@ main {
 .linha3 {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 30px;
     margin-bottom: 10px;
@@ -414,4 +415,21 @@ footer p {
     .apresentacao p{
         font-size: 1.2rem;
     }
+    
+    .foto-hover{
+        width: 90px;
+        height: 90px;
+    }
+}
+
+.linha1{
+    background-color: rgb(81, 173, 173);
+}
+
+.foto-hover{
+    background-color: blueviolet;
+}
+
+.img-default{
+    margin-bottom: 10px;
 }
