@@ -121,6 +121,7 @@ main {
     gap: 30px;
     margin-bottom: 10px;
     margin-top: 20px;
+    background-color: none;
 }
 
 .descricaol1,
@@ -405,7 +406,7 @@ footer p {
     }
 
     .linha1, .linha2{
-        gap: 20px;
+        gap: 10px;
     }
 
     .linha3{
