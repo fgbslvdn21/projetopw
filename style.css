@@ -9,7 +9,7 @@
 body {
     color: #fff;
     font-size: 16px;
-    background: linear-gradient(to right, #130e5f, #19158d, #4627e1);
+    background: linear-gradient(to right, #02010c, #0e0b67, #4627e1);
 }
 
 header {
@@ -56,16 +56,11 @@ header {
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
-main {
-    padding-top: 80px;
-}
-
 .divisoria1 {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     height: 400px;
-    margin-top: 30px;
 }
 
 .rolagem {
@@ -87,7 +82,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    height: 400px;
+    height: 600px;
 }
 
 .divi1 {
@@ -167,7 +162,7 @@ main {
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.445);
     margin-bottom: 10px;
     margin-left: 70px;
-    margin-top: 40px;
+    margin-top: 140px;
 }
 
 .produto-tag2 {
@@ -225,6 +220,7 @@ footer p {
     scroll-snap-type: x mandatory;
     gap: 20px;
     padding: 20px;
+    height: 500px;
 }
 
 .rolagem::-webkit-scrollbar {
@@ -242,13 +238,14 @@ footer p {
 }
 
 .inicio{
-    height: 4rem;
+    height: 6rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .inicio p{
+    margin-top: 30px;
     font-size: 2.5rem;
     text-transform: uppercase;
     color: #e4e4e4;
@@ -421,4 +418,8 @@ footer p {
         width: 80px;
         height: 80px;
     }
+}
+
+.divisoria1{
+    background-image: url(img/dynamic\ programming.jpg);
 }
